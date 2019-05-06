@@ -1,0 +1,120 @@
+{
+    "pages": [
+        {
+            "path": "pages/main/index",
+            "style": {
+                "navigationBarTitleText": "主页"
+            }
+        },
+        {
+            "path": "pages/OAuth/login",
+            "style": {
+                "navigationBarTitleText": "登录"
+            }
+        },
+        {
+            "path": "pages/OAuth/reg",
+            "style": {
+                "navigationBarTitleText": "注册"
+            }
+        },
+        {
+            "path": "pages/OAuth/pwd",
+            "style": {
+                "navigationBarTitleText": "找回密码"
+            }
+        },
+        {
+            "path": "pages/user/index",
+            "style": {
+                "navigationBarTitleText": "我的"
+            }
+        },
+        {
+            "path": "pages/user/balance",
+            "style": {
+                "navigationBarTitleText": "财富",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/exchange/trade",
+            "style": {
+                "navigationBarTitleText": "交易",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/exchange/order",
+            "style": {
+                "navigationBarTitleText": "订单",
+                "enablePullDownRefresh": true
+            }
+        },
+        {
+            "path": "pages/setting/marketConfigList",
+            "style": {
+                "navigationBarTitleText": "交易所",
+                "enablePullDownRefresh": true,
+                "app-plus": {
+                    "titleNView": {
+                        "buttons": [
+                            {
+                                "text": "\ue439",
+                                "fontSrc": "/static/uni.ttf"
+                            }
+                        ]
+                    }
+                }
+            }
+        },
+        {
+            "path": "pages/setting/marketConfigEdit",
+            "style": {
+                "navigationBarTitleText": "交易所设置"
+            }
+        }
+    ],
+    "tabBar": {
+        "color": "#7a7e83",
+        "selectedColor": "#0faeff",
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/main/index",
+                "text": "首页",
+                "iconPath": "static/img/home.png",
+                "selectedIconPath": "static/img/homeHL.png"
+            },
+            {
+                "pagePath": "pages/user/balance",
+                "text": "财富",
+                "iconPath": "static/img/balance.png",
+                "selectedIconPath": "static/img/balanceHL.png"
+            },
+            {
+                "pagePath": "pages/exchange/trade",
+                "text": "交易",
+                "iconPath": "static/img/trade.png",
+                "selectedIconPath": "static/img/tradeHL.png"
+            },
+            {
+                "pagePath": "pages/exchange/order",
+                "text": "订单",
+                "iconPath": "static/img/order.png",
+                "selectedIconPath": "static/img/orderHL.png"
+            },
+            {
+                "pagePath": "pages/user/index",
+                "text": "我的",
+                "iconPath": "static/img/user.png",
+                "selectedIconPath": "static/img/userHL.png"
+            }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "white",
+        "navigationBarBackgroundColor": "#0faeff",
+        "backgroundColor": "#fbf9fe"
+    }
+}
