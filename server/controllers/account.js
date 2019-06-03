@@ -62,6 +62,7 @@ router.post('/login', async ctx => {
   // ret = await gt.pushMessageToSingle(message, { cid: query.clientInfo.clientid });
   // console.log(ret);
   // throw new Error('用户不存在');
+
   const user = await db._findOne(`
     SELECT ID, name, password, clientID, state FROM account
       WHERE name='${query.userName}'
@@ -75,18 +76,18 @@ router.post('/login', async ctx => {
     throw new Error('密码错误');
   }
 
-  if (query.clientInfo && query.clientInfo.clientid) {
-    await db._query(
-      `UPDATE account SET 
-        clientID=?
-        WHERE ID=? `,
-      [
-        query.clientInfo.clientid,
-        user.ID
-      ]
-    );
-  }
-
+  // if (query.clientInfo && query.clientInfo.clientid) {
+  //   await db._query(
+  //     `UPDATE account SET 
+  //       clientID=?
+  //       WHERE ID=? `,
+  //     [
+  //       query.clientInfo.clientid,
+  //       user.ID
+  //     ]
+  //   );
+  // }
+  // throw new Error('用户不存在');
   ctx.state.data = {
     data: {
       token: crypto.token.encode({ ID: user.ID, name: user.name, clientID: user.clientID }),
