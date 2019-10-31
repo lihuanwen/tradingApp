@@ -19,7 +19,7 @@
     "isomorphic-ws": "^4.0.1",
     "iview": "^3.0.0",
     "iview-area": "^1.5.17",
-    "jquery": "^3.3.1",
+    "jquery": "^3.4.0",
     "jquery-mousewheel": "^3.1.13",
     "kline": "^1.1.8",
     "moment": "^2.22.2",
