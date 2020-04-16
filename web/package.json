@@ -15,7 +15,7 @@
     "cropperjs": "^1.2.2",
     "echarts": "^4.0.4",
     "html2canvas": "^1.0.0-alpha.12",
-    "https-proxy-agent": "^2.2.1",
+    "https-proxy-agent": "^2.2.3",
     "isomorphic-ws": "^4.0.1",
     "iview": "^3.0.0",
     "iview-area": "^1.5.17",
