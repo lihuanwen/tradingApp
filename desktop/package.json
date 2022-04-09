@@ -55,7 +55,7 @@
   "dependencies": {
     "axios": "^0.18.0",
     "iview": "^3.3.3",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "vue": "^2.5.16",
     "vue-electron": "^1.0.6",
     "vue-i18n": "^8.10.0",
