@@ -22,7 +22,7 @@
     "jquery": "^3.4.0",
     "jquery-mousewheel": "^3.1.13",
     "kline": "^1.1.8",
-    "moment": "^2.22.2",
+    "moment": "^2.29.4",
     "pako": "^1.0.10",
     "process-nextick-args": "^2.0.0",
     "simplemde": "^1.11.2",
